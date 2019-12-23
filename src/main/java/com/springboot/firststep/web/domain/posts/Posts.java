@@ -1,4 +1,4 @@
-package com.springboot.firststep.web.domain.post;
+package com.springboot.firststep.web.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -30,10 +30,5 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
-
-
-
-
-
     }
 }

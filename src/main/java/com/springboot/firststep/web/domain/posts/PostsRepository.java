@@ -1,4 +1,4 @@
-package com.springboot.firststep.web.domain.post;
+package com.springboot.firststep.web.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
