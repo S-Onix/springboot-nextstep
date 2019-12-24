@@ -1,5 +1,6 @@
 package com.springboot.firststep.web.domain.posts;
 
+import com.springboot.firststep.web.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     //테이블의 PK와 매핑되는 변수
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
