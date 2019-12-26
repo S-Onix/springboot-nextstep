@@ -43,4 +43,10 @@ public class PostsService {
 //        return postsRepository.findAll().stream().map(PostsListResponseDto::new).collect(Collectors.toList());
         return postsRepository.findAll().stream().map(posts -> new PostsListResponseDto(posts)).collect(Collectors.toList());
     }
+
+    @Transactional
+    public void delete(Long id) {
+        Posts posts = postsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id = " + id));
+        postsRepository.delete(posts);
+    }
 }
