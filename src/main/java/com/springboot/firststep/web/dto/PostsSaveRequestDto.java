@@ -1,6 +1,6 @@
 package com.springboot.firststep.web.dto;
 
-import com.springboot.firststep.web.domain.posts.Posts;
+import com.springboot.firststep.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

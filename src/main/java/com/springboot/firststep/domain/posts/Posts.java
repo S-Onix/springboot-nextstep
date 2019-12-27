@@ -1,6 +1,6 @@
-package com.springboot.firststep.web.domain.posts;
+package com.springboot.firststep.domain.posts;
 
-import com.springboot.firststep.web.domain.BaseTimeEntity;
+import com.springboot.firststep.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
 package com.springboot.firststep.service.posts;
 
-import com.springboot.firststep.web.domain.posts.Posts;
-import com.springboot.firststep.web.domain.posts.PostsRepository;
+import com.springboot.firststep.domain.posts.Posts;
+import com.springboot.firststep.domain.posts.PostsRepository;
 import com.springboot.firststep.web.dto.PostsListResponseDto;
 import com.springboot.firststep.web.dto.PostsResponseDto;
 import com.springboot.firststep.web.dto.PostsSaveRequestDto;

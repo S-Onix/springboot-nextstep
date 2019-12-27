@@ -1,5 +1,7 @@
 package com.springboot.firststep.web.domain.posts;
 
+import com.springboot.firststep.domain.posts.Posts;
+import com.springboot.firststep.domain.posts.PostsRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.After;
 import org.junit.Test;
